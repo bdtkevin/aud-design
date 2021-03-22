@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.cursor {
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70px;
+    z-index: 2;
+    transition: .5s;
+}
+
+
+.navLogo {
+    display: inline-block;
+    margin: 10px 0 10px 20px;
+}
+
+.navLogo:hover {
+    transform: scale(1.1);
+}
+
+.navLogo svg path {
+    stroke: #fff;
+}
+
+header {
+    min-width: 1200px;
+    min-height: 800px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#headerVid {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.headerContent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 33%;
+    font-weight: 100;
+    background: rgb(0, 0, 0, 0.3);
+    color: white;
+    padding: 2rem;
+    margin: 2rem 2rem 0 0;
+    font-size: 1.2em;
+    max-height: 80vh;
+}
+
+.headerContent h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+}
+
+.headerContent p {
+    margin-top: 1rem;
+}
+
+.headerSearch {
+    position: absolute;
+    bottom: 25%;
+    left: calc((100vw - 33vw) / 2);
+    display: inline-block;
+    font-weight: 100;
+    background: rgb(0, 0, 0, 0.3);
+    color: white;
+    padding: 2rem;
+    font-size: 1.2em;
+    transform: translateY(-50%) translateX(-50%);
+    margin-left: -2rem;
+    transition: .2s;
+}
+
+.headerSearch:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.headerSearch h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #212121;
+}

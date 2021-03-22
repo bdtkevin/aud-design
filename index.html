@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="nav">
+        <div class="navLogo">
+            <svg width="50px" height="50px" viewBox="0 0 184 184" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>logoAUD</title>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path
+                        d="M181.999807,3 L181.999807,182 L2.20352665,182.001364 C2.13571555,182.003962 2.06787333,182.006502 2,182.008985 L2,182 L2.20352665,182.001364 C4.42488139,181.916264 6.61285066,181.769365 8.76743446,181.560666 L181.623465,181.560104 L92,3 L72.8428265,41.1595004 C84.0349188,56.3691782 89.7538475,73.9826781 89.9996127,94 C89.920691,117.46368 81.0099673,138.423034 63.2674416,156.87806 C48.4211135,171.251841 30.2544444,179.479376 8.76743446,181.560666 L2.35088144,181.560104 L72.8428265,41.1595004 C70.860891,38.4661165 68.7073247,35.8481131 66.3821278,33.3054901 C48.1207095,14.6517506 26.6600002,5.21789846 2,5.00393376 L2,5.00393376 L2,3 L181.999807,3 Z"
+                        id="logoPath" stroke="#000000" stroke-width="5">
+                    </path>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <header>
+        <video poster="./resources/header.png" id="headerVid" playsinline autoplay muted loop>
+            <source src="./resources/header.mp4" type="video/mp4">
+        </video>
+        <section class="headerContent">
+            <h1>Adopt the developer of your dreams</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta dictum turpis, eu mollis justo
+                gravida ac. Proin non eros blandit, rutrum est a, cursus quam. Nam ultricies, velit ac suscipit
+                vehicula, turpis eros sollicitudin lacus, at convallis mauris magna non justo. Etiam et suscipit elit.
+                Morbi eu ornare
+                nulla, sit amet ornare est. Sed vehicula ipsum a mattis dapibus. Etiam volutpat vel enim at auctor.
+            </p>
+        </section>
+        <div class="headerSearch">
+            <h2 id="t1">Let's GO!</h2>
+        </div>
+    </header>
+    <main>
+        <div class="searchContainer">
+            <div class="search click">
+                <h1>Filters</h1>
+            </div>
+            <div class="search filters">
+                <form>
+                    <div class="choiceContainer">
+                        <div class="choice city">
+                            <input type="checkbox" id="cLille" class="check city" checked>
+                            <label for="cLille">Lille</label>
+                            <input type="checkbox" id="cParis" class="check city">
+                            <label for="cParis">Paris</label>
+                            <input type="checkbox" id="cReims" class="check city">
+                            <label for="cReims">Reims</label>
+                            <input type="checkbox" id="cStrasbourg" class="check city">
+                            <label for="cStrasbourg">Strasbourg</label>
+                            <input type="checkbox" id="cMarseille" class="check city">
+                            <label for="cMarseille">Marseille</label>
+                        </div>
+                        <div class="choice techs">
+                            <input type="checkbox" id="cHtml" class="check tech" checked>
+                            <label for="cHtml">Html</label>
+                            <input type="checkbox" id="cCss" class="check tech">
+                            <label for="cCss">Css</label>
+                            <input type="checkbox" id="cJs" class="check tech" checked>
+                            <label for="cJs">Js</label>
+                            <input type="checkbox" id="cNode" class="check tech">
+                            <label for="cNode">Node</label>
+                            <input type="checkbox" id="cReact" class="check tech">
+                            <label for="cReact">React</label>
+                            <input type="checkbox" id="cPhp" class="check tech">
+                            <label for="cPhp">Php</label>
+                            <input type="checkbox" id="cPython" class="check tech" checked>
+                            <label for="cPython">Python</label>
+                        </div>
+                    </div>
+                    <div class="buttonContainer">
+                        <input type="button" id="sendFilters">
+                        <label for="sendFilters">Send</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="cardsGrid"></div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
