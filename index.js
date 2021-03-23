@@ -376,14 +376,6 @@ document.querySelector("#form").addEventListener('submit', (e) => {
             arrayTechs.push(tech.id);
         }
     }
-    // const cards = document.querySelectorAll('.card');
-    // for (let card of cards) {
-    //     cardsGrid.remove(card);
-    //     console.log(`${card}`)
-    // }
-    // console.log(`techs : ${arrayTechs}`);
-
-    // remove all in cardsgrid
     while (cardsGrid.firstChild) {
         cardsGrid.removeChild(cardsGrid.lastChild);
       }
@@ -392,4 +384,17 @@ document.querySelector("#form").addEventListener('submit', (e) => {
             addCard(profilsList[i], i);
         }
     }
+    $('.card').mouseenter((e) => {
+        const id = parseInt(e.currentTarget.id);
+    
+        $(`#${id} .cardTechs`).hide();
+        $(`#${id} .cardDescr`).show();
+    });
+    
+    $('.card').mouseleave((e) => {
+        const id = parseInt(e.currentTarget.id);
+    
+        $(`#${id} .cardTechs`).show();
+        $(`#${id} .cardDescr`).hide();
+    });
 });
