@@ -7,12 +7,12 @@ const profilsList = [
         firstName: "Loïc",
         lastName: "Brassart",
         img: "./pictures/loic.JPG",
-        techs: ["html", "css", "js", "Node", "React", "PHP", "Python", "Pepsi"],
+        techs: ["html", "css", "js", "Node", "React", "PHP", "Python"],
         gitHub: "",
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Loredan",
@@ -23,7 +23,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "paris"
+        city: "Paris"
     },
     {
         firstName: "Pierre",
@@ -34,7 +34,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/pierre-tabary/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Antoine",
@@ -45,7 +45,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "marseille"
+        city: "Marseille"
     },
     {
         firstName: "Hacene",
@@ -56,7 +56,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Teddy",
@@ -67,7 +67,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Kévin",
@@ -78,7 +78,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/kevin-bodart/",
         email: "bdtkevin@gmail.com",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "reims"
+        city: "Reims"
     },
     {
         firstName: "Thai Bang",
@@ -89,7 +89,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/thaibanghoang/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "paris"
+        city: "Paris"
     },
     {
         firstName: "Christophe",
@@ -100,7 +100,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/christophe-luc62/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Georges",
@@ -111,7 +111,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/georges-fortry/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Thomas",
@@ -122,7 +122,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Gaspard",
@@ -133,7 +133,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "strasbourg"
+        city: "Strasbourg"
     },
     {
         firstName: "Caroline",
@@ -144,7 +144,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/caroline-dorchies-80953a205/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Mickael",
@@ -155,7 +155,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Robin",
@@ -166,7 +166,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "marseille"
+        city: "Marseille"
     },
     {
         firstName: "Victor",
@@ -177,7 +177,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Antoine",
@@ -188,7 +188,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/antoine-cau-dw/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Julien",
@@ -199,7 +199,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/julien-delemarle-3a4998b9/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Luay",
@@ -210,7 +210,7 @@ const profilsList = [
         linkedin: "",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     },
     {
         firstName: "Sofia",
@@ -221,7 +221,7 @@ const profilsList = [
         linkedin: "https://www.linkedin.com/in/sofia-boudaoud-051757204/",
         email: "",
         descr: "Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.",
-        city: "lille"
+        city: "Lille"
     }
 ];
 
@@ -344,4 +344,52 @@ $('.card').mouseleave((e) => {
 
     $(`#${id} .cardTechs`).show();
     $(`#${id} .cardDescr`).hide();
+});
+
+const selectCard = (cities = [], techs = [], i) => {
+    if (!cities.includes(profilsList[i].city)) {
+        return false;
+    }
+    console.log(techs);
+    for (let tech of techs) {
+        if (!profilsList[i].techs.includes(tech)) {
+            return false
+        };
+    }
+    return true;
+};
+
+document.querySelector("#form").addEventListener('submit', (e) => {
+    e.preventDefault();
+    const cities = e.target.querySelectorAll('.check.city');
+    const techs = e.target.querySelectorAll('.check.tech');
+    const arrayCities = [];
+    const arrayTechs = [];
+
+    for (let city of cities) {
+        if (city.checked) {
+            arrayCities.push(city.id);
+        }
+    }
+    for (let tech of techs) {
+        if (tech.checked) {
+            arrayTechs.push(tech.id);
+        }
+    }
+    // const cards = document.querySelectorAll('.card');
+    // for (let card of cards) {
+    //     cardsGrid.remove(card);
+    //     console.log(`${card}`)
+    // }
+    // console.log(`techs : ${arrayTechs}`);
+
+    // remove all in cardsgrid
+    while (cardsGrid.firstChild) {
+        cardsGrid.removeChild(cardsGrid.lastChild);
+      }
+    for (let i = 0; i < profilsList.length; i++) {
+        if (selectCard(arrayCities, arrayTechs, i)) {
+            addCard(profilsList[i], i);
+        }
+    }
 });
